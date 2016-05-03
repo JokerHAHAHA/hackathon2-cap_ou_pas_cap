@@ -1,0 +1,67 @@
+{
+	"ruby" : [
+		{
+			"question-number":"1", 
+			"question":"Ruby est un langage créé par un développeur…",
+			"choice1":"Japonais",
+			"choice2":"Américain",
+			"choice3":"Français",
+			"choice4":"Canadien",
+			"answer":"Japonais"
+		},
+		{
+			"question-number":"2", 
+			"question":"Citez un framework créé avec Ruby ?",
+			"choice1":"Django",
+			"choice2":"Rails",
+			"choice3":"Symfony",
+			"choice4":"Express",
+			"answer":"Rails"
+		},
+		{
+			"question-number":"3", 
+			"question":"Quel est le but principal d'une boucle each en Ruby ?",
+			"choice1":"Remplir un tableau",
+			"choice2":"Stocker une variable en mémoire",
+			"choice3":"Parcourir tous les éléments d'un tableau",
+			"choice4":"Compléter le nombre d'élément d'un tableau",
+			"answer":"Parcourir tous les éléments d'un tableau"
+		},
+		{
+			"question-number":"4", 
+			"question":"Quelle est la couleur préférée des rubistes ?",
+			"choice1":"Bleue",
+			"choice2":"Rouge",
+			"choice3":"Orange",
+			"choice4":"Vert",
+			"answer":"Rouge"
+		},
+		{
+			"question-number":"5", 
+			"question":"Qu'est-ce que l'IRB ?",
+			"choice1":"Le terminal MacOS ou Linux",
+			"choice2":"L'extension des fichiers Ruby",
+			"choice3":"Une version spécifique de Ruby",
+			"choice4":"Une console interactive pour exécuter des commandes Ruby",
+			"answer":"Une console interactive pour exécuter des commandes Ruby"
+		},
+		{
+			"question-number":"6", 
+			"question":"Comment s'appelle le formateur Ruby à la WCS ?",
+			"choice1":"Alexandre",
+			"choice2":"Pierre",
+			"choice3":"Paul",
+			"choice4":"Jacques",
+			"answer":"Alexandre"
+		},
+		{
+			"question-number":"7", 
+			"question":"Combien sont ils dans leur groupe ?",
+			"choice1":"Trop peu",
+			"choice2":"Si peu",
+			"choice3":"Trop",
+			"choice4":"Quatre",
+			"answer":"Quatre"
+		}
+	]
+}
