@@ -4,8 +4,10 @@ function homeGameCtrl($scope, $http) {
 
 	function load () {
 		 $http.get('http://localhost:8000/careers').then(function (res) {
-		 	$scope.careers = res.data;
-		 	console.log($scope.careers); 
+		 	$scope.careers = res.data; 
+		 });
+		 $http.get('./datas/data.json').success(function (data) {
+		 	$scope.quiz = data; 
 		 });
 	}
 
