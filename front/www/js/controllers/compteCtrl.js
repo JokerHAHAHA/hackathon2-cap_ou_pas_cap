@@ -1,0 +1,3 @@
+function compteCtrl($scope, $http) {
+
+}

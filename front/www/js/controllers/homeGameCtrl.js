@@ -1,0 +1,3 @@
+function homeGameCtrl($scope, $http) {
+
+}
