@@ -1,4 +1,4 @@
 // DATABASE CONFIG
 var mongoose = require('mongoose');
-module.exports = mongoose.connect('mongodb://localhost/capAngular');
+module.exports = mongoose.connect('mongodb://localhost/cap');
 

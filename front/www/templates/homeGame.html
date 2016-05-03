@@ -1,3 +1,64 @@
-<ion-view style="" id="page2" title="Home game">
-    <ion-content class="has-header" padding="true"></ion-content>
+<ion-view style="" id="homeGame" title="Home game">
+<ion-content class="has-header" padding="true">
+
+	<div ng-show="step < 3" class="button-new-game">
+		<!-- button new game -->
+		<button ng-show="step == 1" ng-click="step=2" class="button button-block button-positive">Nouvelle Partie</button>
+		<!-- choose type of game	 -->
+		<button ng-show="step == 2" ng-click="step=3" class="button button-block button-positive">Culture Générale</button>
+		<button ng-show="step == 2" ng-click="step=4" class="button button-block button-positive">Culture Code</button>
+	</div>
+		<!-- choose culture theme -->
+		<div ng-show="step == 3">
+			<h3>Culture Générale</h3>
+			<hr>
+			<button class="button button-block button-positive">Généralité</button>
+			<button class="button button-block button-positive">Multi-catégories</button>
+			<hr>
+			<h5>Scolaire</h5>
+			<button class="button button-block button-positive">Histoire</button>
+			<button class="button button-block button-positive">Géographie</button>
+			<button class="button button-block button-positive">Mathématiques</button>
+			<button class="button button-block button-positive">Français</button>
+			<hr>
+			<h5>Loisirs</h5>
+			<button class="button button-block button-positive">Cinéma</button>
+			<button class="button button-block button-positive">Musique</button>
+			<button class="button button-block button-positive">Sport</button>
+		</div>
+		<div class="button-languages" ng-show="step == 4">
+			<h3>Culture Code</h3>
+			<hr>
+			<button class="button button-block button-light">
+				<img src="img/ruby.png" alt="logo ruby">
+			</button>
+			<hr>
+			<button class="button button-block button-light">
+				<img src="img/php.png" alt="logo php">
+			</button>
+			<hr>
+			<button class="button button-block button-light">
+				<img src="img/javascript.png" alt="logo javascript">
+			</button>
+			<hr>
+			<button class="button button-block button-light">Je suis un warrior !</button>
+			<hr>
+			<button class="button button-block button-light">Je suis indécis</button>
+		</div>
+	
+<!-- 	<label>Name</label>
+	<input type="text" ng-model="career.game.name">
+	<hr>
+	<label>Result</label>
+	<input type="text" ng-model="career.game.result">
+	<hr>
+	<button ng-click="add()" class="button button-block button-positive">Ajouter</button> -->
+	<hr ng-show="step < 3">
+	<ion-item ng-show="step < 3" class="item-thumbnail-left" ng-repeat="career in careers">
+			<img ng-src=img/quiz-{{career.game.category}}.png alt="quiz {{career.game.category}} logo">
+			<p>{{carrer.game.category}}</p>
+		<h2>{{career.game.name}}</h2>
+		<h3>{{career.game.result}}</h3>
+	</ion-item>	
+</ion-content>
 </ion-view>
