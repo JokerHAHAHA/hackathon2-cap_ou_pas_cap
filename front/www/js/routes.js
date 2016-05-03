@@ -11,13 +11,13 @@ angular.module('app.routes', [])
   
 
   .state('home', {
-    url: '/page1',
+    url: '/home',
     templateUrl: 'templates/home.html',
     controller: 'homeCtrl'
   })
 
   .state('menu.homeGame', {
-    url: 'page2',
+    url: 'homeGame',
     views: {
       'side-menu21': {
         templateUrl: 'templates/homeGame.html',
@@ -27,7 +27,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.compte', {
-    url: 'page3',
+    url: 'compte',
     views: {
       'side-menu21': {
         templateUrl: 'templates/compte.html',
@@ -43,7 +43,7 @@ angular.module('app.routes', [])
   })
 
   .state('menu.chat', {
-    url: 'page4',
+    url: 'chat',
     views: {
       'side-menu21': {
         templateUrl: 'templates/chat.html',
@@ -52,7 +52,7 @@ angular.module('app.routes', [])
     }
   })
 
-  $urlRouterProvider.otherwise('/page1')
+  $urlRouterProvider.otherwise('/home')
 
   
 
