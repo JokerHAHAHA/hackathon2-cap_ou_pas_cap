@@ -1,0 +1,55 @@
+<ion-view style="" id="signup" title="S'enregistrer">
+    <ion-content class="has-header" padding="true">
+
+
+        <div class="list">
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Nom d'utilisateur</span>
+                <input type="text" placeholder="Entrer nom d'utilisateur" ng-mode="user.name">
+            </label>
+
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Mot de passe</span>
+                <input type="password" placeholder="Entrer mot de passe" ng-model="user.password">
+            </label>
+            <label class="item item-input item-stacked-label">
+                <span class="input-label">Confirmer mot de passe</span>
+                <input type="password" placeholder="Entrer à nouveau votre mot de passe">
+            </label>
+
+
+            <div class="row col-100">
+                <ion-checkbox ng-model="user.woman" class="col-50">Femme</ion-checkbox>
+
+                <ion-checkbox ng-model="user.man" class="col-50">Homme</ion-checkbox>
+            </div>
+
+            <div class="list" style="text-align:center;">
+                <h3>Choisir une image de Winner en cas de victoire et de défaite :)</h3>
+                <div class="row">
+                    <p class="col-20 col-offset-20">Winner</p>
+                    <p class="col-20 col-offset-20">Loser</p>
+                </div>
+                <div class="picture">
+                    <img height="150px" class="col-30" src="{{user.photoWin || 'https://s-media-cache-ak0.pinimg.com/236x/ff/f7/f7/fff7f7bca632dcf001e9c5dfc75ff543.jpg'}}" />
+
+
+                    <img height="150px" class="col-30 col-offset-20" src="{{user.photoLose || 'https://s-media-cache-ak0.pinimg.com/236x/23/10/37/23103793c616e7d8105ee74f53d143dd.jpg'}}" />
+                </div>
+
+                <div class="row">
+
+                    <button class="button icon ion-edit col-20 col-offset-20" ng-click=""></button>
+
+                    <button class="button icon ion-edit col-20 col-offset-20"></button>
+                </div>
+
+
+            </div>
+
+            <a href="#/homeGame">
+                <button class="button button-positive button-block" id="register" ng-click="register();">C'est parti ?</button>
+            </a>
+        </div>
+    </ion-content>
+</ion-view>
