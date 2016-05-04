@@ -50,11 +50,11 @@ body{
 .winner>img {
 	width: 80%;
 }
-.button-next-question {
+/*.button-next-question {
 	position: absolute;
 	bottom: 10%;
 	left: 0;
-}
+}*/
 .btn-new-in-gage {
 	position: absolute;
 	bottom: 25%;
