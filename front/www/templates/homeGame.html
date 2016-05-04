@@ -14,9 +14,10 @@
         	<hr ng-show="step < 3">
 			<ion-item ng-show="step < 3" class="item-thumbnail-left" ng-repeat="career in careers">
 				<img ng-src=img/quiz-{{career.game.category}}.png alt="quiz {{career.game.category}} logo">
-				<p>{{carrer.game.category}}</p>
 				<h2>{{career.game.name}}</h2>
 				<h3>{{career.game.result}}</h3>
+				<hr>
+				<h3>Adversaire : {{users[$index+2].name}}</h3>
 			</ion-item>	
 
 
@@ -186,7 +187,7 @@
 		</div>
 		
 		<div ng-show="step == 54">
-			<h3>Ton gage a bien été envoyé à ton adversaire :</h3>
+			<h3>Ton gage a bien été envoyé à Benjamin :</h3>
 			<h1>Faire un bisou à Caroline !</h1>
 			<button ng-click="step=2" class="button button-block button-positive">Nouvelle Partie</button>
 		</div>
