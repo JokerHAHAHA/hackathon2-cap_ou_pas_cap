@@ -24,3 +24,13 @@ body{
 .dommage {
 	color: #FF0000!important;
 }
+.recaps-container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.joueur1, .joueur2 {
+	width: 45%;
+}
