@@ -16,7 +16,7 @@ function homeGameCtrl($scope, $http, $cordovaGeolocation) {
   	});
 
 	function load () {
-		$http.get('http://localhost:8000/careers').then(function (res) {
+		$http.get('192.168.3.20:8000/careers').then(function (res) {
 			$scope.careers = res.data; 
 		});
 		$http.get('./datas/data.json').success(function (data) {
@@ -30,7 +30,7 @@ function homeGameCtrl($scope, $http, $cordovaGeolocation) {
 
 	$scope.add = function () {
 		var data = $scope.career;
-		$http.post('http://localhost:8000/careers', data);
+		$http.post('192.168.3.20:8000/careers', data);
 		$scope.career = {};
 	}
 	$scope.checkRep = function (choice, indexQ) {
