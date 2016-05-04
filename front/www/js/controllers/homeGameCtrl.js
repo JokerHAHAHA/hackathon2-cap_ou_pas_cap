@@ -1,7 +1,7 @@
 function homeGameCtrl($scope, $http) {
 	$scope.step = 1;
 	$scope.career = {};
-	$scope.answer = ["","","","","","",""];
+	$scope.answer = [];
 
 	function load () {
 		 $http.get('http://localhost:8000/careers').then(function (res) {
@@ -9,6 +9,10 @@ function homeGameCtrl($scope, $http) {
 		 });
 		 $http.get('./datas/data.json').success(function (data) {
 		 	$scope.quiz = data;
+		 });
+		 $http.get('./datas/users.json').success(function (data) {
+		 	$scope.users = data;
+		 	console.log($scope.users);
 		 });
 	}
 
@@ -18,14 +22,14 @@ function homeGameCtrl($scope, $http) {
 		 $scope.career = {};
 	}
 	$scope.checkRep = function (choice, indexQ) {
-		console.log(choice);
-		console.log(indexQ);
-		 if (choice.toString() != $scope.quiz.ruby[indexQ].answer.toString()) {
-		 	$scope.answer.splice(indexQ, 1, $scope.quiz.ruby[indexQ].answer);
+		console.log(typeof choice);
+		console.log($scope.quiz.ruby[indexQ-1].answer);
+		 if (choice != $scope.quiz.ruby[indexQ-1].answer) {
+		 	$scope.answer.push($scope.quiz.ruby[indexQ-1].answer);
 		 console.log($scope.answer);
 		}
 		 else {
-		 	$scope.answer.splice(indexQ, 1, "good");
+		 	$scope.answer.push("good");
 		 console.log($scope.answer);
 		}
 	}

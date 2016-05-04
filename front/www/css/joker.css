@@ -1,3 +1,6 @@
+body{
+	text-align: center;
+}
 .button-new-game {
 	margin-top: 20%!important;
 	margin-bottom: 20%!important;
@@ -14,4 +17,10 @@
 }
 .container-question {
 	text-align: center;
+}
+.bravo {
+	color: #20A611!important;
+}
+.dommage {
+	color: #FF0000!important;
 }

@@ -1,0 +1,43 @@
+[
+        {
+            "name": "Benjamin",
+            "waitFor": "ruby",
+            "answser": ["good","good","good","good","good","good","good"]
+        },
+        {
+            "name": "Valetin",
+            "waitFor": "ruby",
+            "answser": ["good","good","good","good","good","good","good"]
+        },
+        {
+            "name": "Richard",
+            "waitFor": "ruby",
+            "answser": ["good","good","good","good","good","good","good"]
+        },
+        {
+            "name": "Mélanie",
+            "waitFor": "ruby",
+            "answser": ["good","good","good","good","good","good","good"]
+        },
+        {
+            "name": "Hadrien",
+            "waitFor": "javascript"
+		},
+        {
+            "name": "Julien",
+            "waitFor": "javascript"
+		},
+        {
+            "name": "Mathilde",
+            "waitFor": "php"
+		},
+        {
+            "name": "Emilie",
+            "waitFor": "php"
+		},
+        {
+            "name": "Yann",
+            "waitFor": "php"
+		}
+
+]

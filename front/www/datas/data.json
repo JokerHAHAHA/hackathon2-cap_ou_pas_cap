@@ -1,7 +1,7 @@
 {
     "ruby": [
         {
-            "questionNumber": "1",
+            "questionNumber": 1,
             "question": "Ruby est un langage créé par un développeur…",
             "choice1": "Japonais",
             "choice2": "Américain",
@@ -10,7 +10,7 @@
             "answer": "Japonais"
 		},
         {
-            "questionNumber": "2",
+            "questionNumber": 2,
             "question": "Citez un framework créé avec Ruby ?",
             "choice1": "Django",
             "choice2": "Rails",
@@ -19,7 +19,7 @@
             "answer": "Rails"
 		},
         {
-            "questionNumber": "3",
+            "questionNumber": 3,
             "question": "Quel est le but principal d'une boucle each en Ruby ?",
             "choice1": "Remplir un tableau",
             "choice2": "Stocker une variable en mémoire",
@@ -28,7 +28,7 @@
             "answer": "Parcourir tous les éléments d'un tableau"
 		},
         {
-            "questionNumber": "4",
+            "questionNumber": 4,
             "question": "Quelle est la couleur préférée des rubistes ?",
             "choice1": "Bleue",
             "choice2": "Rouge",
@@ -37,7 +37,7 @@
             "answer": "Rouge"
 		},
         {
-            "questionNumber": "5",
+            "questionNumber": 5,
             "question": "Qu'est-ce que l'IRB ?",
             "choice1": "Le terminal MacOS ou Linux",
             "choice2": "L'extension des fichiers Ruby",
@@ -46,7 +46,7 @@
             "answer": "Une console interactive pour exécuter des commandes Ruby"
 		},
         {
-            "questionNumber": "6",
+            "questionNumber": 6,
             "question": "Comment s'appelle le formateur Ruby à la WCS ?",
             "choice1": "Alexandre",
             "choice2": "Pierre",
@@ -55,7 +55,7 @@
             "answer": "Alexandre"
 		},
         {
-            "questionNumber": "7",
+            "questionNumber": 7,
             "question": "Combien sont ils dans leur groupe ?",
             "choice1": "Trop peu",
             "choice2": "Si peu",
