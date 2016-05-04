@@ -2,13 +2,13 @@
 <ion-content class="has-header" padding="true">
 
 	<div ng-show="step < 3" class="button-new-game">
-	{{quiz}}
 		<!-- button new game -->
 		<button ng-show="step == 1" ng-click="step=2" class="button button-block button-positive">Nouvelle Partie</button>
 		<!-- choose type of game	 -->
 		<button ng-show="step == 2" ng-click="step=3" class="button button-block button-positive">Culture Générale</button>
 		<button ng-show="step == 2" ng-click="step=4" class="button button-block button-positive">Culture Code</button>
 	</div>
+
 		<!-- choose culture theme -->
 		<div ng-show="step == 3">
 			<h3>Culture Générale</h3>
@@ -27,24 +27,47 @@
 			<button class="button button-block button-positive">Musique</button>
 			<button class="button button-block button-positive">Sport</button>
 		</div>
+
+		<!-- choose code language -->
 		<div class="button-languages" ng-show="step == 4">
 			<h3>Culture Code</h3>
 			<hr>
-			<button class="button button-block button-light">
+			<button ng-click="step=5; question=1" class="button button-block button-light">
 				<img src="img/ruby.png" alt="logo ruby">
 			</button>
 			<hr>
-			<button class="button button-block button-light">
+			<button ng-click="step=6" class="button button-block button-light">
 				<img src="img/php.png" alt="logo php">
 			</button>
 			<hr>
-			<button class="button button-block button-light">
+			<button ng-click="step=7" class="button button-block button-light">
 				<img src="img/javascript.png" alt="logo javascript">
 			</button>
 			<hr>
 			<button class="button button-block button-light">Je suis un warrior !</button>
 			<hr>
 			<button class="button button-block button-light">Je suis indécis</button>
+		</div>
+
+		<!-- question ruby -->
+		<div class="questions" ng-show="step == 5">
+				<ion-item class="item-text-wrap container-question" ng-repeat="question in quiz.ruby | filter: {questionNumber : question}">
+					<h2>{{question.question}}</h2>
+					<button ng-click="checkRep(question.choice1, question.questionNumber.parseFloat())" class="button button-royal button-block">{{question.choice1}}</button>
+					<button ng-click="checkRep(question.choice2, $index)" class="button button-royal button-block">{{question.choice2}}</button>
+					<button ng-click="checkRep(question.choice3, $index)" class="button button-royal button-block">{{question.choice3}}</button>
+					<button ng-click="checkRep(question.choice4, $index)" class="button button-royal button-block">{{question.choice4}}</button>
+				</ion-item>
+			</ion-item>
+			<button ng-click="question == 7 ? step=51 : question = question+1" class="button button-block button-positive">Question suivante</button>
+		</div>
+		
+		<div ng-show="step == 51">
+			<ion-item class="item-text-wrap container-question" ng-repeat="question in quiz.ruby">
+				<h2>{{question.question}}</h2>
+				<p>{{(answer[$index]) == "good" ? "BRAVO !" : "DOMMAGE !"}}</p>
+				{{question.answer}}
+			</ion-item>
 		</div>
 	
 <!-- 	<label>Name</label>
@@ -56,8 +79,8 @@
 	<button ng-click="add()" class="button button-block button-positive">Ajouter</button> -->
 	<hr ng-show="step < 3">
 	<ion-item ng-show="step < 3" class="item-thumbnail-left" ng-repeat="career in careers">
-			<img ng-src=img/quiz-{{career.game.category}}.png alt="quiz {{career.game.category}} logo">
-			<p>{{carrer.game.category}}</p>
+		<img ng-src=img/quiz-{{career.game.category}}.png alt="quiz {{career.game.category}} logo">
+		<p>{{carrer.game.category}}</p>
 		<h2>{{career.game.name}}</h2>
 		<h3>{{career.game.result}}</h3>
 	</ion-item>	
