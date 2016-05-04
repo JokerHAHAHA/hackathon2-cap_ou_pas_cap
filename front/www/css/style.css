@@ -10,6 +10,18 @@
     padding-top: 0px !important;
 }
 
+.userPhoto {
+    border: 1px black solid;
+    margin-top: 10px;
+    margin-bottom: 3px;
+}
+
+.userName,
+.userPoint {
+    color: white;
+    background-color: black;
+}
+
 .step1,
 .step2,
 .step3 {
