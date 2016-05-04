@@ -1,67 +1,286 @@
 {
-	"ruby" : [
-		{
-			"question-number":"1", 
-			"question":"Ruby est un langage créé par un développeur…",
-			"choice1":"Japonais",
-			"choice2":"Américain",
-			"choice3":"Français",
-			"choice4":"Canadien",
-			"answer":"Japonais"
+    "ruby": [
+        {
+            "questionNumber": "1",
+            "question": "Ruby est un langage créé par un développeur…",
+            "choice1": "Japonais",
+            "choice2": "Américain",
+            "choice3": "Français",
+            "choice4": "Canadien",
+            "answer": "Japonais"
 		},
-		{
-			"question-number":"2", 
-			"question":"Citez un framework créé avec Ruby ?",
-			"choice1":"Django",
-			"choice2":"Rails",
-			"choice3":"Symfony",
-			"choice4":"Express",
-			"answer":"Rails"
+        {
+            "questionNumber": "2",
+            "question": "Citez un framework créé avec Ruby ?",
+            "choice1": "Django",
+            "choice2": "Rails",
+            "choice3": "Symfony",
+            "choice4": "Express",
+            "answer": "Rails"
 		},
-		{
-			"question-number":"3", 
-			"question":"Quel est le but principal d'une boucle each en Ruby ?",
-			"choice1":"Remplir un tableau",
-			"choice2":"Stocker une variable en mémoire",
-			"choice3":"Parcourir tous les éléments d'un tableau",
-			"choice4":"Compléter le nombre d'élément d'un tableau",
-			"answer":"Parcourir tous les éléments d'un tableau"
+        {
+            "questionNumber": "3",
+            "question": "Quel est le but principal d'une boucle each en Ruby ?",
+            "choice1": "Remplir un tableau",
+            "choice2": "Stocker une variable en mémoire",
+            "choice3": "Parcourir tous les éléments d'un tableau",
+            "choice4": "Compléter le nombre d'élément d'un tableau",
+            "answer": "Parcourir tous les éléments d'un tableau"
 		},
-		{
-			"question-number":"4", 
-			"question":"Quelle est la couleur préférée des rubistes ?",
-			"choice1":"Bleue",
-			"choice2":"Rouge",
-			"choice3":"Orange",
-			"choice4":"Vert",
-			"answer":"Rouge"
+        {
+            "questionNumber": "4",
+            "question": "Quelle est la couleur préférée des rubistes ?",
+            "choice1": "Bleue",
+            "choice2": "Rouge",
+            "choice3": "Orange",
+            "choice4": "Vert",
+            "answer": "Rouge"
 		},
-		{
-			"question-number":"5", 
-			"question":"Qu'est-ce que l'IRB ?",
-			"choice1":"Le terminal MacOS ou Linux",
-			"choice2":"L'extension des fichiers Ruby",
-			"choice3":"Une version spécifique de Ruby",
-			"choice4":"Une console interactive pour exécuter des commandes Ruby",
-			"answer":"Une console interactive pour exécuter des commandes Ruby"
+        {
+            "questionNumber": "5",
+            "question": "Qu'est-ce que l'IRB ?",
+            "choice1": "Le terminal MacOS ou Linux",
+            "choice2": "L'extension des fichiers Ruby",
+            "choice3": "Une version spécifique de Ruby",
+            "choice4": "Une console interactive pour exécuter des commandes Ruby",
+            "answer": "Une console interactive pour exécuter des commandes Ruby"
 		},
-		{
-			"question-number":"6", 
-			"question":"Comment s'appelle le formateur Ruby à la WCS ?",
-			"choice1":"Alexandre",
-			"choice2":"Pierre",
-			"choice3":"Paul",
-			"choice4":"Jacques",
-			"answer":"Alexandre"
+        {
+            "questionNumber": "6",
+            "question": "Comment s'appelle le formateur Ruby à la WCS ?",
+            "choice1": "Alexandre",
+            "choice2": "Pierre",
+            "choice3": "Paul",
+            "choice4": "Jacques",
+            "answer": "Alexandre"
 		},
-		{
-			"question-number":"7", 
-			"question":"Combien sont ils dans leur groupe ?",
-			"choice1":"Trop peu",
-			"choice2":"Si peu",
-			"choice3":"Trop",
-			"choice4":"Quatre",
-			"answer":"Quatre"
+        {
+            "questionNumber": "7",
+            "question": "Combien sont ils dans leur groupe ?",
+            "choice1": "Trop peu",
+            "choice2": "Si peu",
+            "choice3": "Trop",
+            "choice4": "Quatre",
+            "answer": "Quatre"
 		}
-	]
+	],
+
+    "generales": [
+        {
+            "histoire": [
+                {
+                    "questionNumber": "1",
+                    "question": "Que brûle-t-on en public au cours d'un autodafé savamment orchestré en 1933 devant l'opéra de Berlin pour frapper l'opinion publique ?",
+                    "choice1": "Les symboles de la République de Weimar déchue",
+                    "choice2": "Tous les biens confisqués aux juifs allemands qui ont été internés ou contraints à l'exil",
+                    "choice3": "Les livres des auteurs jugés contraires à l'esprit allemand ( juifs, marxistes, pacifistes )",
+                    "choice4": "Les peintures réalisées par des artistes juifs",
+                    "answer": "Les livres des auteurs jugés contraires à l'esprit allemand ( juifs, marxistes, pacifistes )"
+		},
+                {
+                    "questionNumber": "2",
+                    "question": "Quel célèbre général romain conquiert la Gaule ?",
+                    "choice1": "Marcus Aemilius Lepidus",
+                    "choice2": "Jules César",
+                    "choice3": "Scipion Emilion",
+                    "choice4": "Emilien de la platforme",
+                    "answer": "Jules César"
+		},
+                {
+                    "questionNumber": "3",
+                    "question": "Comment s'appelait le projet de bombe atomique lancé par le président Roosevelt en 1942 ?",
+                    "choice1": "Projet Attila",
+                    "choice2": "Projet Potomac",
+                    "choice3": "La Loupe",
+                    "choice4": "Projet Manhattan",
+                    "answer": "Projet Manhattan"
+		},
+                {
+                    "questionNumber": "4",
+                    "question": "Quel est le nom de l'avion Boeing B-29 Superfortress qui largua sur la ville d'Hiroshima, le 6 août 1945, la première Bombe A utilisée comme arme de guerre ?",
+                    "choice1": "Spirit of St. Louis",
+                    "choice2": "Malabar Princess",
+                    "choice3": "Enola Gay",
+                    "choice4": "Oiseau Blanc",
+                    "answer": "Enola Gay"
+		},
+                {
+                    "questionNumber": "5",
+                    "question": "Quelle personne était destinée à porter la Terre sur son dos ?",
+                    "choice1": "Atlas",
+                    "choice2": "Ouranos",
+                    "choice3": "Eole",
+                    "choice4": "Artémis",
+                    "answer": "Atlas"
+		},
+                {
+                    "questionNumber": "6",
+                    "question": "Quel scientifique Français connu pour sa phrase 'Rien ne se perd, rien ne se crée, tout se transforme' est mort guillotiné en 1794 ?",
+                    "choice1": "Pierre Curie",
+                    "choice2": "André Marie Ampère",
+                    "choice3": "Georges Charpak",
+                    "choice4": "Antoine Lavoisier",
+                    "answer": "Antoine Lavoisier"
+		},
+                {
+                    "questionNumber": "7",
+                    "question": "Comment a-t-on appelé le squelette de l'homme le plus ancien découvert à l'heure actuelle ?",
+                    "choice1": "Sally",
+                    "choice2": "Lucy",
+                    "choice3": "Molly",
+                    "choice4": "Tuttie",
+                    "answer": "Lucy"
+		}
+
+
+    ],
+            "geographie": [
+                {
+                    "questionNumber": "1",
+                    "question": "Quel pourcentage des réserves d’eau douce mondiales représente le fleuve Amazone ?",
+                    "choice1": "8%",
+                    "choice2": "23%",
+                    "choice3": "18%",
+                    "choice4": "31%",
+                    "answer": "18%"
+                },
+                {
+                    "questionNumber": "2",
+                    "question": "Quelle est la capitale de la Colombie ?",
+                    "choice1": "Caracas",
+                    "choice2": "Chisinau",
+                    "choice3": "Buenos Aires",
+                    "choice4": "Bogota",
+                    "answer": "Bogota"
+		},
+                {
+                    "questionNumber": "3",
+                    "question": "Comment s'appelait le projet de bombe atomique lancé par le président Roosevelt en 1942 ?",
+                    "choice1": "Projet Attila",
+                    "choice2": "Projet Potomac",
+                    "choice3": "La Loupe",
+                    "choice4": "Projet Manhattan",
+                    "answer": "Projet Manhattan"
+		},
+                {
+                    "questionNumber": "4",
+                    "question": "Combien l'Union Européenne compte-t-elle de membre ?",
+                    "choice1": "25",
+                    "choice2": "28",
+                    "choice3": "23",
+                    "choice4": "20",
+                    "answer": "28"
+		},
+                {
+                    "questionNumber": "5",
+                    "question": "Qu'est ce qu'un 'Land' en Allemagne ?",
+                    "choice1": "Une Etat indépendant",
+                    "choice2": "Un Etat fédéré",
+                    "choice3": "Une île",
+                    "choice4": "Un titre honorifique",
+                    "answer": "un Etat fédéré"
+		},
+                {
+                    "questionNumber": "6",
+                    "question": "Combien l'Espagne compte-t-elle de régions autonomes ?",
+                    "choice1": "17",
+                    "choice2": "15",
+                    "choice3": "12",
+                    "choice4": "5",
+                    "answer": "17"
+		},
+                {
+                    "questionNumber": "7",
+                    "question": "Quelle ligne imaginaire se situe entre le tropique du Cancer et celui du Capricorne ?",
+                    "choice1": "L'équateur",
+                    "choice2": "La ligne Maginot",
+                    "choice3": "La ligne Roset",
+                    "choice4": "La ligne Verte",
+                    "answer": "L'équateur"
+		}
+
+    ],
+            "mathematiques": [
+
+                {
+                    "questionNumber": "1",
+                    "question": "Quelle réponse est le théorème de Pythagore ?",
+                    "choice1": "E=MC2",
+                    "choice2": "BC2=AB2+AC2",
+                    "choice3": "A=BA;>=2",
+                    "choice4": "Pi = 3,141559...",
+                    "answer": "BC2=AB2+AC2"
+                },
+
+                {
+                    "questionNumber": "2",
+                    "question": "Comment appelle-t-on un triangle sans côtes ni angles égaux ?",
+                    "choice1": "Quelquonque",
+                    "choice2": "Hypoténuse",
+                    "choice3": "Inéquilatéral",
+                    "choice4": "Rond",
+                    "answer": "Quelquonque"
+		          },
+                {
+                    "questionNumber": "3",
+                    "question": "3758 + 3758 + 100 =",
+                    "choice1": "7416",
+                    "choice2": "7716",
+                    "choice3": "7616",
+                    "choice4": "7516",
+                    "answer": "7616"
+		          },
+                {
+                    "questionNumber": "4",
+                    "question": "Le produit est le résultat :",
+                    "choice1": "d'une addition",
+                    "choice2": "d'une soustraction",
+                    "choice3": "d'une multiplication",
+                    "choice4": "d'une division",
+                    "answer": "d'une multiplication"
+		},
+                {
+                    "questionNumber": "5",
+                    "question": "Une personne place 1500 € sur un plan d'épargne rémunéré à 6 % l'an. Quel sera l'intérêt acquis au bout de 2 quadrimestres de placement ?",
+                    "choice1": "40€",
+                    "choice2": "50€",
+                    "choice3": "60€",
+                    "choice4": "80€",
+                    "answer": "60€"
+		},
+                {
+                    "questionNumber": "6",
+                    "question": "Quel est le carré du quart du tiers de 12 ?",
+                    "choice1": "Neuf",
+                    "choice2": "Un",
+                    "choice3": "Trois",
+                    "choice4": "Deux",
+                    "answer": "Un"
+		},
+                {
+                    "questionNumber": "7",
+                    "question": "Une carte routière est à l'échelle 1/250 000. Quelle distance réelle représentent 4 cm sur cette carte ?",
+                    "choice1": "25 km",
+                    "choice2": "100 km",
+                    "choice3": "1 km",
+                    "choice4": "10 km",
+                    "answer": "25 km"
+		}
+
+],
+            "francais": [
+
+    ],
+            "cinema": [
+
+    ],
+            "musique": [
+
+    ],
+            "sport": [
+
+    ]
+
+            }
+            ]
 }
