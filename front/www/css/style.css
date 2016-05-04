@@ -10,10 +10,19 @@
     padding-top: 0px !important;
 }
 
+#homeGame {
+    text-shadow: 0px 0px 1px black;
+}
+
 .userPhoto {
     border: 1px black solid;
     margin-top: 10px;
     margin-bottom: 3px;
+}
+
+.button {
+    box-shadow: 0px 0px 3px black;
+    text-shadow: 0px 0px 3px black;
 }
 
 .userName,
@@ -28,6 +37,10 @@
     text-shadow: 0px 0px 3px black;
     box-shadow: 1px 1px 3px black;
     border-radius: 4px;
+}
+
+.title {
+    text-shadow: 0px 0px 1px black;
 }
 
 .titleCode {
@@ -50,7 +63,6 @@
     color: white !important;
 }
 
-.test:active {
-    clear: both;
-    background-color: red !important;
+.button-royal {
+    background-color: red;
 }

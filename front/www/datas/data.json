@@ -18,29 +18,30 @@
                     "validation": "Le cri est crédible !"
         }
 
-            ]
-        },
+        ]
+    },
         {
             "education": [
                 {
                     "gageNumber": "1",
                     "description:": "Apprends la réponse à une question, sur laquelle tu t'es trompé, à une tierce personne",
                     "validation": "Il / Elle a compris"
-        },
+    },
                 {
                     "gageNumber": "2",
                     "description:": "Lis la page Wikipedia de la première question à laquelle tu t'es trompé(e)",
                     "validation": "Tu as lu la page... Vraiment !"
-        },
+    },
                 {
                     "gageNumber": "3",
                     "description:": "Lalala",
                     "validation": "LOLOL"
-        }
+    }
 
-            ]
-        }
-    ],
+        ]
+    }
+],
+
 
     "ruby": [
         {

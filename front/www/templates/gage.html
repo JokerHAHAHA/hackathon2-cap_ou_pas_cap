@@ -1,0 +1,17 @@
+<ion-view style="" id="gage" title="Des Gages">
+    <ion-content class="has-header" padding="true">
+
+        <button class="button button-assertive button-block" ng-click="step=666">Choisir gage punitif</button>
+        <button class="button button-balanced button-block" ng-hide="step==666">Choisir gage éducatif</button>
+
+
+        <div class="questions" ng-show="step == 666">
+
+            <h2>{{gage[0].description}}</h2>
+            <button class="button button-royal button-block">{{gage.punition.validation}}</button>
+
+        </div>
+
+
+    </ion-content>
+</ion-view>

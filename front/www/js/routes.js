@@ -18,14 +18,23 @@ angular.module('app.routes', [])
     })
 
     .state('menu.homeGame', {
-        url: 'homeGame',
-        views: {
-            'side-menu21': {
-                templateUrl: 'templates/homeGame.html',
-                controller: 'homeGameCtrl'
+            url: 'homeGame',
+            views: {
+                'side-menu21': {
+                    templateUrl: 'templates/homeGame.html',
+                    controller: 'homeGameCtrl'
+                }
             }
-        }
-    })
+        })
+        .state('menu.gage', {
+            url: 'gage',
+            views: {
+                'side-menu21': {
+                    templateUrl: 'templates/gage.html',
+                    controller: 'homeGameCtrl'
+                }
+            }
+        })
 
     .state('menu.compte', {
         url: 'compte',
