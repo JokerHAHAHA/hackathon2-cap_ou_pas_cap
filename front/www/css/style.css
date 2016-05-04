@@ -22,9 +22,11 @@
 
 .button {
     box-shadow: 0px 0px 3px black;
-    text-shadow: 0px 0px 3px black;
 }
+.btn-change-img {
+    box-shadow: none;
 
+}
 .userName,
 .userPoint {
     color: white;

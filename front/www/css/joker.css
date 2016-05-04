@@ -14,9 +14,13 @@ body{
 .button-languages>button>img {
 	width: 30%;
 	margin: auto;
+	margin-top: 15px;
 }
 .container-question {
 	text-align: center;
+}
+.questions {
+	margin-top: 20%!important;
 }
 .bravo {
 	color: #20A611!important;
@@ -30,7 +34,32 @@ body{
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
+	-webkit-flex-wrap: wrap;
+	-moz-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	-o-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: auto;
+}
+.racaps-container>h1 {
+	width: 100%;
 }
 .joueur1, .joueur2 {
-	width: 45%;
+	width: 48%;
+}
+.winner>img {
+	width: 80%;
+}
+.button-next-question {
+	position: absolute;
+	bottom: 10%;
+	left: 0;
+}
+.btn-new-in-gage {
+	position: absolute;
+	bottom: 25%;
+	left: 0;
+}
+.gage-container {
+	margin-top: 20%;
 }
