@@ -2,22 +2,22 @@
         {
             "name": "Benjamin",
             "waitFor": "ruby",
-            "answser": ["good","good","good","good","good","good","good"]
+            "answer": ["good","bad","bad","bad","bad","bad","bad"]
         },
         {
             "name": "Valetin",
             "waitFor": "ruby",
-            "answser": ["good","good","good","good","good","good","good"]
+            "answer": ["good","good","good","good","good","good","good"]
         },
         {
             "name": "Richard",
             "waitFor": "ruby",
-            "answser": ["good","good","good","good","good","good","good"]
+            "answer": ["good","good","good","good","good","good","good"]
         },
         {
             "name": "Mélanie",
             "waitFor": "ruby",
-            "answser": ["good","good","good","good","good","good","good"]
+            "answer": ["good","good","good","good","good","good","good"]
         },
         {
             "name": "Hadrien",
