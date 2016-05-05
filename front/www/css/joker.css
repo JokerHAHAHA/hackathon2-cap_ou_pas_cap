@@ -1,5 +1,65 @@
+#test {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 30vw;
+	transition-duration: 2s;
+}
 body{
 	text-align: center;
+}
+.fond {
+	width: 100vw;
+	height: 100vh;
+}
+.door1 {
+    position: absolute;
+    top: 31vh;
+    left: 12vw;
+    width: 79vw;
+    height: 62vh;
+}
+.door1 {
+    position: absolute;
+    top: 31vh;
+    left: 12vw;
+    width: 15vw;
+    height: 62vh;
+}
+.door2 {
+    position: absolute;
+    top: 31vh;
+    left: 24vw;
+    width: 15vw;
+    height: 62vh;
+}
+.door3 {
+    position: absolute;
+    top: 31vh;
+    left: 36vw;
+    width: 15vw;
+    height: 62vh;
+}
+.flowers1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50vw;
+	height: 20vh;
+}
+.flowers2 {
+	position: absolute;
+	bottom: 0;
+	left: 50vw;
+	width: 50vw;
+	height: 20vh;
+}
+.flowers {
+	position: absolute;
+	bottom: 0;
+	left: 50vw;
+	width: 100vw;
+	height: 10vh;
 }
 .button-new-game {
 	margin-top: 20%!important;

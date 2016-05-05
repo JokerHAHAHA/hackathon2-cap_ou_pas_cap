@@ -11,30 +11,36 @@ angular.module('app.routes', [])
 
 
 
-        .state('home', {
+    .state('home', {
         url: '/home',
         templateUrl: 'templates/home.html',
         controller: 'homeCtrl'
     })
 
-    .state('menu.homeGame', {
-            url: 'homeGame',
-            views: {
-                'side-menu21': {
-                    templateUrl: 'templates/homeGame.html',
-                    controller: 'homeGameCtrl'
-                }
+    .state('homeGme', {
+        url: '/homeGame',
+        templateUrl: 'templates/homeGame.html',
+        controller: 'homeGameCtrl'
+    })
+
+    .state('menu.quiz', {
+        url: 'quiz',
+        views: {
+            'side-menu21': {
+                templateUrl: 'templates/quiz.html',
+                controller: 'quizCtrl'
             }
-        })
-        .state('menu.gage', {
-            url: 'gage',
-            views: {
-                'side-menu21': {
-                    templateUrl: 'templates/gage.html',
-                    controller: 'homeGameCtrl'
-                }
+        }
+    })
+    .state('menu.gage', {
+        url: 'gage',
+        views: {
+            'side-menu21': {
+                templateUrl: 'templates/gage.html',
+                controller: 'quizCtrl'
             }
-        })
+        }
+    })
 
     .state('menu.compte', {
         url: 'compte',
@@ -53,23 +59,23 @@ angular.module('app.routes', [])
     })
 
     .state('menu.chat', {
-            url: 'chat',
-            views: {
-                'side-menu21': {
-                    templateUrl: 'templates/chat.html',
-                    controller: 'chatCtrl'
-                }
+        url: 'chat',
+        views: {
+            'side-menu21': {
+                templateUrl: 'templates/chat.html',
+                controller: 'chatCtrl'
             }
-        })
-        .state('menu.signup', {
-            url: 'signup',
-            views: {
-                'side-menu21': {
-                    templateUrl: 'templates/signup.html',
-                    controller: 'homeCtrl'
-                }
+        }
+    })
+    .state('menu.signup', {
+        url: 'signup',
+        views: {
+            'side-menu21': {
+                templateUrl: 'templates/signup.html',
+                controller: 'homeCtrl'
             }
-        })
+        }
+    })
 
     $urlRouterProvider.otherwise('/home')
 
