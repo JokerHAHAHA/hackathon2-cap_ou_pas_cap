@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Chalk";
+    src: url('../font/Colored Crayons.ttf');
+}
 #test {
 	position: absolute;
 	left: 0;
@@ -70,6 +74,25 @@ body{
 /*===============================================
 QUIZ
 =================================================*/
+.quiz {
+	font-family: 'Marck Script', cursive;
+	text-align: center;
+    text-shadow: 0px 0px 1px black;
+}
+.quiz-title {
+    position: absolute;
+    font-family: 'Chalk', cursive;
+    color: #FFFFFF;
+    font-size: 390%;
+    top: 17vh;
+    left: 10vw;
+}
+.button-new-game button {
+	text-align: center;
+    text-shadow: 0px 0px 3px black;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 4px;
+}
 .slate {
 	position: absolute;
 	top: 0;
@@ -84,15 +107,28 @@ QUIZ
 	width: 100vw;
 	height: 100vh;
 }
-.button-new-game {
-	margin-top: 20%!important;
-	margin-bottom: 20%!important;
-	max-height: 20%!important;
-	min-height: 20%!important;
+.quiz button {
+    font-family: 'Chalk', cursive;
+    color: #FFFFFF;
+    font-size: 288%;
+    text-align: center;
+    top: 40vh;
 }
-.game-history {
+.btn-culture {
+	box-shadow: none!important;
+}
+.history {
 	position: absolute;
-	top: 100px!important;
+	top: 0;
+	left: 0;
+	top: 100vh;
+	width: 100vw;
+}
+.history h2 {
+	margin: 10% 0 5% 0;
+}
+.history h1, .history h3 {
+	display: inline-block;
 }
 .button-languages>button>img {
 	width: 30%;
