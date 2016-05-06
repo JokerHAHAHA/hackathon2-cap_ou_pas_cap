@@ -1,15 +1,16 @@
-<ion-view style="" id="quiz" title="Home game">
+<ion-view id="quiz" class="quiz" hide-nav-bar="true" title="Home game">
 
-    <ion-content class="has-header" padding="true">
-
+    <ion-content class="has-header" padding="false">
 
         <div ng-show="step < 3" class="button-new-game">
+			<img class="papyrus" src="img/quiz-papyrus.jpg" alt="slate background">
+			<img class="slate" src="img/slate.png" alt="slate background">
             <!-- button new game -->
-            <button ng-show="step == 1" ng-click="step=2" class="step1 button button-block button-positive">Nouvelle Partie</button>
+            <button ng-show="step == 1" ng-click="step=2" class="button button-block button-positive">Nouvelle Partie</button>
 
             <!-- choose type of game	 -->
-            <button ng-show="step == 2" ng-click="step=3" class="step2 button button-block button-positive">Culture Générale</button>
-            <button ng-show="step == 2" ng-click="step=4" class="step3 button button-block button-positive">Culture Code</button>
+            <button ng-show="step == 2" ng-click="step=3" class="button button-block button-positive">Culture Générale</button>
+            <button ng-show="step == 2" ng-click="step=4" class="button button-block button-positive">Culture Code</button>
         </div>
 
 
