@@ -3,6 +3,13 @@ function quizCtrl($scope, $http, $cordovaGeolocation) {
 	$scope.career = {};
 	$scope.answer = [];
 
+	document.querySelector('.btn-rouge').style.opacity = 0;
+	// setTimeout(function(){
+
+	// 		document.querySelector(".btn-transparent").style.opacity = 1;
+
+	// 	}, 1000); 
+
 	var posOptions = {timeout: 10000, enableHighAccuracy: true};
 	$cordovaGeolocation
 	.getCurrentPosition(posOptions)

@@ -113,9 +113,8 @@ QUIZ
     font-size: 288%;
     text-align: center;
     top: 40vh;
-}
-.btn-culture {
-	box-shadow: none!important;
+    box-shadow: none!important;
+    transition-delay: 5s;
 }
 .history {
 	position: absolute;
