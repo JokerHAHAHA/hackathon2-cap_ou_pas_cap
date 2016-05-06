@@ -17,10 +17,14 @@ angular.module('app.routes', [])
         controller: 'homeCtrl'
     })
 
-    .state('homeGme', {
-        url: '/homeGame',
-        templateUrl: 'templates/homeGame.html',
-        controller: 'homeGameCtrl'
+    .state('menu.homeGame', {
+        url: 'homeGame',
+        views: {
+            'side-menu21': {
+                templateUrl: 'templates/homeGame.html',
+                controller: 'homeGameCtrl'
+            }
+        }
     })
 
     .state('menu.quiz', {

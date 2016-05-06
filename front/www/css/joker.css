@@ -12,54 +12,35 @@ body{
 	width: 100vw;
 	height: 100vh;
 }
-.door1 {
-    position: absolute;
-    top: 31vh;
-    left: 12vw;
-    width: 79vw;
-    height: 62vh;
-}
-.door1 {
-    position: absolute;
-    top: 31vh;
-    left: 12vw;
-    width: 15vw;
-    height: 62vh;
-}
-.door2 {
-    position: absolute;
-    top: 31vh;
-    left: 24vw;
-    width: 15vw;
-    height: 62vh;
-}
-.door3 {
-    position: absolute;
-    top: 31vh;
-    left: 36vw;
-    width: 15vw;
-    height: 62vh;
-}
-.flowers1 {
+.arrow {
 	position: absolute;
-	bottom: 0;
+	top: 45vh;
 	left: 0;
-	width: 50vw;
-	height: 20vh;
-}
-.flowers2 {
-	position: absolute;
-	bottom: 0;
-	left: 50vw;
-	width: 50vw;
-	height: 20vh;
-}
-.flowers {
-	position: absolute;
-	bottom: 0;
-	left: 50vw;
-	width: 100vw;
+	width: 7vw;
 	height: 10vh;
+}
+.menu-page {
+	text-align: center;
+	background-image: url('../img/papyrus.jpg');
+	background-size: 100% 100%;
+}
+.item-content, .menu-element {
+	border: none;
+	background-color: transparent!important;
+}
+.game-choice .btn-quiz {
+    position: absolute;
+    width: 33vw;
+    top: 35vh;
+    left: 33.3vw;
+    box-shadow: 0px 0px 3px black;
+}
+.game-choice .btn-pendu {
+    position: absolute;
+    width: 33vw;
+    top: 55vh;
+    left: 33.3vw;
+    box-shadow: 0px 0px 3px black;
 }
 .button-new-game {
 	margin-top: 20%!important;
