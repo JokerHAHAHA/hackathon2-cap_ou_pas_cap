@@ -1,10 +1,10 @@
 # Capiche
 
-Application developped during an 32h Hackathon at the [Wild Code School](https://wildcodeschool.fr) and then I completed by [HangPhp](https://github.com/JokerHAHAHA/hangPhp)
+Application developped during an 32h Hackathon at the [Wild Code School](https://wildcodeschool.fr) 
 
 ## Description
 
-It is a multi game application
+It is a quiz game application for mobile
 
 ## Collabs
 
